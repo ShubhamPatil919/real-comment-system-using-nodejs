@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment System</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-mt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4><strong>Real Time Comment System Using Node JS</strong></h4>
+                    <p>
+                        Built on top of Google Chrome's V8 Engine, Node.js (and its companion framework, Express.js) have come to dominate much of backend development, especially when JavaScript is your language of choice on the server-side. In this edition of "Best of DZone,"
+                        we're going to take a look into the two frameworks to better understand key pieces of functionality and how they work in tandem to create applications. Before we begin, we'd like need to thank those who were a part of this article.
+                        DZone has and continues to be a community powered by contributors like you who are eager and passionate to share what they know with the rest of the world.
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-12">
+
+                    <h4 class="border-bottom pb-2">Comments</h4>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-grop">
+                        <label for="">Write A Comment</label>
+                        <textarea id="textarea" rows="3" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button id="submitBtn" class="btn btn-primary float-right">Post Comment</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="comment__box"></ul>
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js "></script>
+        <script src="/js/app.js "></script>
+</body>
+
+</html>

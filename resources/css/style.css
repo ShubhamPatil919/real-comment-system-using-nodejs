@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css?family=Muli:WGHT@300;400;600;800&display=swap');
+ body {
+     background: whitesmoke;
+     -webkit-font-smoothing: antialised;
+     font-family: 'Muli', sans-serif;
+ }
+ 
+ .comment__box {
+     list-style-type: none;
+     padding-left: 10;
+ }
+ 
+ .comment__box .comment h6 {
+     font-weight: 900;
+ }
+ 
+ p {
+     font-size: 14px;
+ }
